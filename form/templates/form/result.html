@@ -1,0 +1,20 @@
+{%load static%}
+<html>
+<head>
+
+</head>
+<body>
+    <div class="intro">
+        <p id="header"> Word Frequency Counter - Top 10 Words <br></p>
+        <p id="greeting"><i> {{title}} </i></p>
+    </div>
+    <div class="formDesign">
+        {% for i in object %}
+            <div>
+                <h3>{{i.word}} - {{i.freq}}</h3>
+            </div>
+        {% endfor %}
+    </div>
+    <a href="{% url "form-freq"%}"> Go back to enter URL </a>
+</body>
+</html>
