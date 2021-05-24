@@ -3,4 +3,3 @@ gunicorn
 django-heroku
 bs4
 BeautifulSoup4
-urllib
