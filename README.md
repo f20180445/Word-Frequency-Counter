@@ -6,7 +6,7 @@
 
 3) form directory also has templates directory that store the html files for host:frequency and host:result pages
 
-4) the app is hosted on https://atgtask2jainam.herokuapp.com/frequency/
+4) EDIT - the app is no longer available. the app is hosted on https://atgtask2jainam.herokuapp.com/frequency/
 
 Jainam
 7021571195
